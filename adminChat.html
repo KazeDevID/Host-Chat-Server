@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Host Chat Server</title>
+	<link rel="icon" href="images/chatLogo.png">
+    <link href="style/styleChat.css" rel="stylesheet" type="text/css" />
+	<script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="loading"></div>
+	<div class="members-count">Jumlah Online</div>
+	<div class="members-list">Daftar anggota</div>
+	<div class="messages"></div>
+	<form class="message-form" onsubmit="return false;">
+	<input class="message-form__input" placeholder="Type a message." type="text"/>
+	</form>
+</body>
+<script src="script/scriptChatAdmin.js"></script>
+</html>

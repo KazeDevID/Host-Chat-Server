@@ -1,0 +1,72 @@
+.main{
+	color: black;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid gainsboro;
+	border-radius: 4px;
+	position: fixed;
+	height: 270px;
+	width: 250px;
+	top: 50%;
+	left: 50%;
+	margin-top: -135px; /* Negative half of height. */
+	margin-left: -125px; /* Negative half of width. */
+  	font-family:Arial, "Helvetica", sans-serif;
+}
+body{
+	overflow: hidden;
+}
+img{
+	height: 50px;
+	width: auto;
+}
+h1{
+	position: relative;
+	top: -60px;
+	left: 50px;
+}
+input{
+	position: relative;
+	top: -60px;
+	width: 240px;
+	height: 50px;
+	padding-left: 20px;
+	outline: none;
+	border-radius: 4px;
+	background-color: white;
+	border: 1px solid gainsboro;
+	display: block;
+	box-shadow: 0px 0px 5px 0px silver;
+}
+button{
+	top: -60px;
+	display: block;
+	height: 50px;
+	width: 240px;
+	outline: none;
+	background-color: white;
+	font-weight:bold;
+	text-decoration:none;
+  	text-transform:uppercase;
+	text-align: center;
+  	position:relative;
+	cursor:pointer;
+	border-radius: 4px;
+	box-shadow: 0px 0px 5px 0px silver;
+}
+
+#loading{
+	background: url('/images/preloader.gif') no-repeat center center;
+	background-color: white;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 9999999;
+  	image-rendering: crisp-edges;
+	image-rendering: -moz-crisp-edges;          /* Firefox */
+	image-rendering: -o-crisp-edges;            /* Opera */
+	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+	-ms-interpolation-mode: nearest-neighbor;   
+}

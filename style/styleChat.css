@@ -1,0 +1,105 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+	color: black;
+	background-color: white;
+	overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#closeButton {
+    position: absolute;
+    top: 10px;
+	padding: 1px;
+    right: 10px;
+	width: 19px;
+	height: 19px;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	background-color: tomato;
+	color: white;
+	border-radius: 50px;
+
+}
+#closeButton:hover{
+	background-color: white;
+	color: tomato;
+}
+.members-count,
+.members-list,
+.messages {
+    border: 1px solid gainsboro;
+    padding: 15px;
+	color: black;
+	border-radius: 4px;
+    margin-bottom: 15px;
+}
+.info{
+	height: 100px;
+	overflow-y: scroll;
+	font-size: 13px;
+	border: 1px solid gainsboro;
+    padding: 10px;
+	color: black;
+	border-radius: 4px;
+    margin-bottom: 15px;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: rgb(12, 147, 236);
+}
+.messages {
+    flex-shrink: 1;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+	max-height: 80%;
+	overflow-y: scroll;
+}
+.message {
+    padding: 5px 0;
+}
+.message .member {
+	display: inline-block;
+}
+.member {
+    padding-right: 10px;
+    position: relative;
+}
+.message-form {
+    display: flex;
+    flex-shrink: 0;
+}
+.message-form__input {
+    flex-grow: 1;
+	color: #484C52;
+    border: 1px solid gainsboro;
+	background-color: white;
+	border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+	outline: none;
+}
+#loading{
+	background: url('/images/preloader.gif') no-repeat center center;
+	background-color: white;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 9999999;
+  	image-rendering: crisp-edges;
+	image-rendering: -moz-crisp-edges;          /* Firefox */
+	image-rendering: -o-crisp-edges;            /* Opera */
+	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+	-ms-interpolation-mode: nearest-neighbor;   
+}
