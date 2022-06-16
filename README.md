@@ -6,10 +6,10 @@ Host Chat Server Tempat Dimana Kalian Bisa nge chat 1 server Yang dapat menampun
 
 - Chat WhatsApp Admin[wa.me/6282217590187]
 
-- Harga? 15k
+- Harga? 50k
 
 - Via? Dana,Ovo,Gopay
 
-- Via Pulsa? +5k
+- Via Pulsa? +10k
 
 Thanks
